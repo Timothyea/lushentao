@@ -1,0 +1,20 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 152.402 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/order/addOrder
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+                                              Content-Length: 253
+                                              Content-Type: application/json
+                                              
+                                              b'{"ordeerPrice": 7000, "orderLineList": [{"qty": 1, "skuCode": "lst2CGwNpj_\\u7d2b\\u8272_10\\u5bf8"}], "receiver": "lst", "receiverPhone": "13701916488", "receivingAddress": "\\u4e0a\\u6d77\\u5e02\\uff0c\\u95f5\\u884c\\u533a", "sign": "", "userName": "string888"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              500
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:35:26 GMT
+                                              Connection: close
+                                              
+                                              {"timestamp":"2019-11-11T03:35:26.455+0000","status":500,"error":"Internal Server Error","message":"\n### Error updating database.  Cause: java.sql.SQLException: Field 'order_id' doesn't have a default value\n### The error may involve com.guoyasoft.mapper.TOrderOrderMapper.insertSelective-Inline\n### The error occurred while setting parameters\n### SQL: insert into t_order_order      ( order_number,                       user_name,                       ordeer_price,                       receiver,                       receiver_phone,                       receiving_address )       values ( ?,                       ?,                       ?,                       ?,                       ?,                       ? )\n### Cause: java.sql.SQLException: Field 'order_id' doesn't have a default value\n; ]; Field 'order_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'order_id' doesn't have a default value","path":"/order/addOrder"}

@@ -1,0 +1,7 @@
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 11 Nov 2019 03:35:25 GMT
+
+{"code":2000,"message":"产品更新成功1条；商品更新3条。","data":""}

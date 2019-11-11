@@ -1,0 +1,11 @@
+-------------------request-------------
+http://api.yansl.com:8084/product/addProd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+Content-Length: 209
+Content-Type: application/json
+
+b'{"brand": "\\u5c0f\\u7c73", "colors": ["\\u7d2b\\u8272", "\\u84dd\\u8272", "\\u7070\\u8272"], "price": 9999, "productCode": "lst2CGwNpj", "productName": "\\u5c0f\\u7c7330", "sizes": ["10\\u5bf8"], "type": "\\u624b\\u673a"}'

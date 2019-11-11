@@ -1,0 +1,18 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 124.217 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/acc/recharge
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 49
+                                              Content-Type: application/json
+                                              
+                                              b'{"accountName": "string888", "changeMoney": 7000}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:35:25 GMT
+                                              
+                                              {"code":2000,"message":"充值成功;账户余额98000分","data":""}

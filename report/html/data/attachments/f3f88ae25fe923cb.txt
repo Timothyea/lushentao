@@ -1,0 +1,11 @@
+-------------------request-------------
+http://api.yansl.com:8084/product/soldOut
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+Content-Length: 22
+Content-Type: application/x-www-form-urlencoded
+
+productCode=lst2CGwNpj

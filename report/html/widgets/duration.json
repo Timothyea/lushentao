@@ -1,0 +1,81 @@
+[ {
+  "uid" : "8876e825aaa7ff5c",
+  "name" : "用户充值_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325609,
+    "stop" : 1573443325741,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c44ac5c902f98e0",
+  "name" : "全字段正常流_1",
+  "time" : {
+    "start" : 1573443324828,
+    "stop" : 1573443324970,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24c6283ff3bff086",
+  "name" : "调整商品库存_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325460,
+    "stop" : 1573443325572,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eb2863b8c9f34c5",
+  "name" : "产品预售_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325329,
+    "stop" : 1573443325455,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66599b92cd3b0bf0",
+  "name" : "增加订单_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325748,
+    "stop" : 1573443325909,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a8db2e7e7da76d",
+  "name" : "产品下架_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325206,
+    "stop" : 1573443325320,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d3831ffa80d7f9",
+  "name" : "根据产品编码批量修改商品价格_全字段正常流_1",
+  "time" : {
+    "start" : 1573443325082,
+    "stop" : 1573443325201,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a3f22937693ffa",
+  "name" : "修改商品价格_全字段正常流_1",
+  "time" : {
+    "start" : 1573443324976,
+    "stop" : 1573443325078,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,37 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 149.656 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 45
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "string999", "userName": "string888"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:35:25 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=","userName":"string888"}}
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 134.564 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/product/addProd
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+                                              Content-Length: 209
+                                              Content-Type: application/json
+                                              
+                                              b'{"brand": "\\u5c0f\\u7c73", "colors": ["\\u7d2b\\u8272", "\\u84dd\\u8272", "\\u7070\\u8272"], "price": 9999, "productCode": "lst2CGwNpj", "productName": "\\u5c0f\\u7c7330", "sizes": ["10\\u5bf8"], "type": "\\u624b\\u673a"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:35:25 GMT
+                                              
+                                              {"code":2000,"message":"创建产品成功,产品ID为:500。共生成商品：3件。","data":[{"skuId":null,"productCode":"lst2CGwNpj","skuCode":"lst2CGwNpj_紫色_10寸","skuName":"小米30紫色10寸","skuPrice":9999,"color":"紫色","size":"10寸","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"lst2CGwNpj","skuCode":"lst2CGwNpj_蓝色_10寸","skuName":"小米30蓝色10寸","skuPrice":9999,"color":"蓝色","size":"10寸","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"lst2CGwNpj","skuCode":"lst2CGwNpj_灰色_10寸","skuName":"小米30灰色10寸","skuPrice":9999,"color":"灰色","size":"10寸","status":null,"createTime":null,"updateTime":null}]}

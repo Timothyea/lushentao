@@ -1,0 +1,19 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 106.294 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/product/fullSku
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+                                              Content-Length: 57
+                                              Content-Type: application/x-www-form-urlencoded
+                                              
+                                              skuCode=lst2CGwNpj_%E7%B4%AB%E8%89%B2_10%E5%AF%B8&qty=999
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:35:25 GMT
+                                              
+                                              {"code":2000,"message":"更新成功","data":""}

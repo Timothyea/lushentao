@@ -1,0 +1,11 @@
+-------------------request-------------
+http://api.yansl.com:8084/order/addOrder
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczNDQ1MTI1MzY2LCJ1c2VySWQiOjE5NjMsInVzZXJOYW1lIjoic3RyaW5nODg4In0=
+Content-Length: 253
+Content-Type: application/json
+
+b'{"ordeerPrice": 7000, "orderLineList": [{"qty": 1, "skuCode": "lst2CGwNpj_\\u7d2b\\u8272_10\\u5bf8"}], "receiver": "lst", "receiverPhone": "13701916488", "receivingAddress": "\\u4e0a\\u6d77\\u5e02\\uff0c\\u95f5\\u884c\\u533a", "sign": "", "userName": "string888"}'
